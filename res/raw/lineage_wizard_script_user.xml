@@ -35,12 +35,6 @@
     <WizardAction
         wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.LINEAGE_LOCKSCREEN_SETTINGS;end"
         id="lockscreen_settings">
-        <result wizard:action="theme_settings" />
-    </WizardAction>
-
-    <WizardAction
-        wizard:uri="intent:#Intent;action=org.lineageos.setupwizard.THEME_SETTINGS;end"
-        id="theme_settings">
         <result wizard:action="navigation_settings" />
     </WizardAction>
 
