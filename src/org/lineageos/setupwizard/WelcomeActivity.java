@@ -58,7 +58,7 @@ public class WelcomeActivity extends SubBaseActivity {
             welcomeTitle.setText(getString(R.string.setup_managed_profile_welcome_message));
         } else {
             welcomeTitle.setText(getString(R.string.setup_welcome_message,
-                    getString(R.string.os_name)));
+                    getString(R.string.setup_welcome_brand)));
         }
     }
 
