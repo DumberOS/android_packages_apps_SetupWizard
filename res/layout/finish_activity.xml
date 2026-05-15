@@ -39,10 +39,32 @@
             android:gravity="center"
             android:padding="@dimen/content_margin_left"/>
 
+        <LinearLayout
+            android:id="@+id/tt9_prompt_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/content_margin_left"
+            android:paddingEnd="@dimen/content_margin_left"
+            android:paddingBottom="@dimen/content_margin_left"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tt9_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/finish_tt9_prompt"
+                android:textAlignment="center"
+                style="@style/SudGlifDescription" />
+
+        </LinearLayout>
+
         <org.lineageos.setupwizard.NavigationLayout
             android:id="@+id/navigation_bar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:showSkipButton="true" />
 
     </LinearLayout>
 

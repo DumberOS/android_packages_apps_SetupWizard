@@ -10,6 +10,7 @@ import static org.lineageos.setupwizard.SetupWizardApp.LOGV;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
@@ -31,6 +32,8 @@ import org.lineageos.setupwizard.util.SetupWizardUtils;
 public class FinishActivity extends BaseSetupWizardActivity {
 
     public static final String TAG = FinishActivity.class.getSimpleName();
+    private static final String EXTRA_LAUNCH_TT9 = "launch_tt9";
+    private static final String TT9_PACKAGE = "io.github.sspanak.tt9";
 
     private final Handler mHandler = new Handler(Looper.getMainLooper());
 
@@ -41,6 +44,7 @@ public class FinishActivity extends BaseSetupWizardActivity {
 
     private View mRootView;
     private Resources.Theme mEdgeToEdgeWallpaperBackgroundTheme;
+    private boolean mShouldLaunchTt9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +54,8 @@ public class FinishActivity extends BaseSetupWizardActivity {
         if (LOGV) {
             logActivityState("onCreate savedInstanceState=" + savedInstanceState);
         }
-        setNextText(R.string.start);
+        mShouldLaunchTt9 = getIntent().getBooleanExtra(EXTRA_LAUNCH_TT9, false);
+        updateTt9Prompt();
 
         // Edge-to-edge. Needed for the background view to fill the full screen.
         final Window window = getWindow();
@@ -118,17 +123,23 @@ public class FinishActivity extends BaseSetupWizardActivity {
     @Override
     public void onNavigateNext() {
         if (!sIsFinishing) {
-            sIsFinishing = true;
-            startActivity(getIntent());
-            finish();
-            disableActivityTransitions();
+            beginFinishSequence(hasTt9LaunchIntent());
         }
         hideNextButton();
+    }
+
+    @Override
+    public void onSkip() {
+        if (!sIsFinishing) {
+            beginFinishSequence(false);
+        }
+        hideSkipButton();
     }
 
     private void startFinishSequence() {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
         hideNextButton();
+        hideSkipButton();
 
         // Begin outro animation.
         if (mRootView.isAttachedToWindow()) {
@@ -168,10 +179,62 @@ public class FinishActivity extends BaseSetupWizardActivity {
                     if (LOGV) {
                         Log.v(TAG, "Animation ended");
                     }
-                    SetupWizardUtils.finishSetupWizard(FinishActivity.this);
+                    finishSetupWizard();
                 });
             }
         });
         anim.start();
+    }
+
+    private void beginFinishSequence(boolean launchTt9) {
+        sIsFinishing = true;
+        final Intent finishIntent = new Intent(getIntent())
+                .putExtra(EXTRA_LAUNCH_TT9, launchTt9);
+        startActivity(finishIntent);
+        finish();
+        disableActivityTransitions();
+    }
+
+    private void finishSetupWizard() {
+        SetupWizardUtils.finishSetupWizard(FinishActivity.this);
+        if (mShouldLaunchTt9) {
+            final Context appContext = getApplicationContext();
+            mHandler.post(() -> launchTt9(appContext));
+        }
+    }
+
+    private void updateTt9Prompt() {
+        final View promptContainer = findViewById(R.id.tt9_prompt_container);
+        if (hasTt9LaunchIntent()) {
+            promptContainer.setVisibility(View.VISIBLE);
+            setNextText(R.string.tt9_yes);
+            setSkipText(R.string.tt9_no);
+        } else {
+            promptContainer.setVisibility(View.GONE);
+            setNextText(R.string.start);
+            hideSkipButton();
+        }
+    }
+
+    private boolean hasTt9LaunchIntent() {
+        return getPackageManager().getLaunchIntentForPackage(TT9_PACKAGE) != null;
+    }
+
+    private void hideSkipButton() {
+        final NavigationLayout navigationBar = getNavigationBar();
+        if (navigationBar != null) {
+            navigationBar.getSkipButton().setVisibility(View.INVISIBLE);
+        }
+    }
+
+    private void launchTt9(Context context) {
+        final Intent launchIntent = context.getPackageManager().getLaunchIntentForPackage(
+                TT9_PACKAGE);
+        if (launchIntent == null) {
+            Log.w(TAG, "TT9 launch intent not found, skipping");
+            return;
+        }
+        launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        context.startActivity(launchIntent);
     }
 }

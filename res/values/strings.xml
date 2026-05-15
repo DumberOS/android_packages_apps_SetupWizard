@@ -19,7 +19,10 @@
     <string name="start">Start</string>
     <string name="done">Done</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">Yes</string>
+    <string name="tt9_no">Later</string>
     <string name="loading">Just a sec\u2026</string>
+    <string name="finish_tt9_prompt">Configure predictive typing (TT9)?</string>
 
     <!-- Welcome page -->
     <string name="setup_welcome_brand" translatable="false">DumberOS</string>
