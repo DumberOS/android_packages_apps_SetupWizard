@@ -11,6 +11,10 @@
     <string name="start">شروع</string>
     <string name="done">انجام شد</string>
     <string name="ok">قبول</string>
+    <string name="tt9_yes">بله</string>
+    <string name="tt9_no">بعدا</string>
+    <string name="finish_tt9_prompt">تایپ پیش‌بینی‌کننده (TT9) را تنظیم کنید؟</string>
+
     <string name="loading">یک لحظه لطفا\u2026</string>
     <string name="setup_welcome_message">خوش آمدید به <xliff:g id="name" example="LineageOS"/></string>
     <string name="setup_managed_profile_welcome_message">نمایه کاری خود را تنظیم کنید</string>

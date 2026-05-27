@@ -10,6 +10,10 @@
     <string name="skip">Iwwersprangen</string>
     <string name="start">Start</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">Jo</string>
+    <string name="tt9_no">Méi spéit</string>
+    <string name="finish_tt9_prompt">Prediktivt Tippen (TT9) ariichten?</string>
+
     <string name="loading">Ee Moment w.e.g.\u2026</string>
     <string name="emergency_call">Noutruff</string>
     <string name="setup_sim_missing">SIM-Kaart feelt</string>

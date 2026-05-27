@@ -11,6 +11,9 @@
     <string name="start">Comenzar</string>
     <string name="done">Fecho</string>
     <string name="ok">D\'acuerdu</string>
+    <string name="tt9_yes">Sí</string>
+    <string name="tt9_no">Dempués</string>
+    <string name="finish_tt9_prompt">¿Configurar la escritura predictiva (TT9)?</string>
     <string name="loading">Un segundín\u2026</string>
     <string name="setup_welcome_message">Afáyate en <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="emergency_call">Llamada d\'emerxencia</string>

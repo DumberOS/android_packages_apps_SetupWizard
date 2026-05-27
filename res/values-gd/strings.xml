@@ -11,6 +11,10 @@
     <string name="start">Tòisich</string>
     <string name="done">Deiseil</string>
     <string name="ok">Ceart ma-thà</string>
+    <string name="tt9_yes">Tha</string>
+    <string name="tt9_no">Nas fhaide air adhart</string>
+    <string name="finish_tt9_prompt">An rèitich thu taidhpeadh ro-innseach (TT9)?</string>
+
     <string name="loading">Fuirich greiseag\u2026</string>
     <string name="emergency_call">Gairm-èiginn</string>
     <string name="accessibility_settings">Roghainnean na so-inntrigeachd</string>

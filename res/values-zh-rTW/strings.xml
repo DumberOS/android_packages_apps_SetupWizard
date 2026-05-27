@@ -11,6 +11,10 @@
     <string name="start">開始</string>
     <string name="done">已完成</string>
     <string name="ok">確定</string>
+    <string name="tt9_yes">是</string>
+    <string name="tt9_no">稍後再說</string>
+    <string name="finish_tt9_prompt">要設定預測輸入 (TT9) 嗎？</string>
+
     <string name="loading">請稍候\u2026</string>
     <string name="setup_welcome_message">歡迎使用 <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">設定您的工作設定檔</string>

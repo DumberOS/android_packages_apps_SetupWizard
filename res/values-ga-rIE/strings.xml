@@ -11,6 +11,10 @@
     <string name="start">Tosaigh</string>
     <string name="done">Déanta</string>
     <string name="ok">Ceart go leor</string>
+    <string name="tt9_yes">Tá</string>
+    <string name="tt9_no">Níos déanaí</string>
+    <string name="finish_tt9_prompt">Clóscríobh tuarthach (TT9) a chumrú?</string>
+
     <string name="loading">Níl ann ach soic\u2026</string>
     <string name="setup_welcome_message">Fáilte go <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Socraigh do phróifíl oibre</string>

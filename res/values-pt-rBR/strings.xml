@@ -11,6 +11,10 @@
     <string name="start">Iniciar</string>
     <string name="done">Pronto</string>
     <string name="ok">Ok</string>
+    <string name="tt9_yes">Sim</string>
+    <string name="tt9_no">Mais tarde</string>
+    <string name="finish_tt9_prompt">Configurar digitação preditiva (TT9)?</string>
+
     <string name="loading">Só um momento\u2026</string>
     <string name="setup_welcome_message">Boas-vindas ao <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Configure seu perfil de trabalho</string>

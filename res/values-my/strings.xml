@@ -11,6 +11,10 @@
     <string name="start">စတင်မည်</string>
     <string name="done">ပြီးဆုံးပါပြီ</string>
     <string name="ok">ကောင်းပြီ</string>
+    <string name="tt9_yes">Yes</string>
+    <string name="tt9_no">ယခုမလုပ်ပါ</string>
+    <string name="finish_tt9_prompt">ကြိုတင်ခန့်မှန်းစာရိုက်ခြင်း (TT9) ကို စီစဉ်သတ်မှတ်မလား။</string>
+
     <string name="loading">ခဏစောင့်ပါ\u2026</string>
     <string name="setup_welcome_message"><xliff:g id="name" example="LineageOS">%1$s</xliff:g> မှ ကြိုဆိုပါတယ်</string>
     <string name="emergency_call">အရေးပေါ် ခေါ်ဆိုမှု</string>

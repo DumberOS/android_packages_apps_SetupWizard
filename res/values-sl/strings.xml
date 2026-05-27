@@ -11,6 +11,10 @@
     <string name="start">Začni</string>
     <string name="done">Končano</string>
     <string name="ok">V redu</string>
+    <string name="tt9_yes">Da</string>
+    <string name="tt9_no">Pozneje</string>
+    <string name="finish_tt9_prompt">Konfigurirati prediktivno tipkanje (TT9)?</string>
+
     <string name="loading">Samo trenutek \u2026</string>
     <string name="setup_welcome_message">Dobrodošli v <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Nastavite vaš službeni profil</string>

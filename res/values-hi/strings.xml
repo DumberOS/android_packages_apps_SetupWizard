@@ -10,6 +10,10 @@
     <string name="skip">छोड़ें</string>
     <string name="start">शुरू करें</string>
     <string name="ok">ठीक है</string>
+    <string name="tt9_yes">हां</string>
+    <string name="tt9_no">रद्द करें</string>
+    <string name="finish_tt9_prompt">प्रेडिक्टिव टाइपिंग (TT9) कॉन्फ़िगर करें?</string>
+
     <string name="loading">एक सेकंड\u2026</string>
     <string name="emergency_call">आपातकालीन कॉल</string>
     <string name="setup_sim_missing">सिम कार्ड नहीं है</string>

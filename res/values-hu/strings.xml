@@ -11,6 +11,10 @@
     <string name="start">Indít</string>
     <string name="done">Kész</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">Igen</string>
+    <string name="tt9_no">Később</string>
+    <string name="finish_tt9_prompt">Beállítja a prediktív gépelést (TT9)?</string>
+
     <string name="loading">Csak egy pillanat\u2026</string>
     <string name="setup_welcome_message">Legyen üdvözölve a <xliff:g id="name" example="LineageOS">%1$s</xliff:g> rendszerben</string>
     <string name="setup_managed_profile_welcome_message">Állítsa be a munkahelyi profilját</string>

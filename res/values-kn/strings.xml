@@ -11,6 +11,10 @@
     <string name="start">ಪ್ರಾರಂಭಿಸಿ</string>
     <string name="done">ಆಯ್ತು</string>
     <string name="ok">ಆಯ್ತು</string>
+    <string name="tt9_yes">ಹೌದು</string>
+    <string name="tt9_no">ಈಗಲೇ ಬೇಡ</string>
+    <string name="finish_tt9_prompt">ಪೂರ್ವಾನುಮಾನ ಟೈපಿಂಗ್ (TT9) ಸಂರಚಿಸಬೇಕೆ?</string>
+
     <string name="loading">ಒಂದು ಕ್ಷಣದಲ್ಲಿ\u2026</string>
     <string name="emergency_call">ತುರ್ತುಸ್ಥಿತಿ ಕರೆ</string>
     <string name="setup_locale">ಭಾಷೆ</string>

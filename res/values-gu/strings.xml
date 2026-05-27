@@ -10,6 +10,10 @@
     <string name="skip">છોડી દો</string>
     <string name="start">પ્રારંભ કરો</string>
     <string name="ok">ઑકે</string>
+    <string name="tt9_yes">હા</string>
+    <string name="tt9_no">હમણાં નહીં</string>
+    <string name="finish_tt9_prompt">શું પ્રેડિક્ટિવ ટાઇપિંગ (TT9) કન્ફિગર કરવું છે?</string>
+
     <string name="loading">માત્ર એક સેકન્ડ\u2026</string>
     <string name="emergency_call">કટોકટીનો કૉલ</string>
     <string name="sim_locale_changed">%1$s SIM સૂચિત</string>

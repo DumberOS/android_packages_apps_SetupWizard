@@ -11,6 +11,10 @@
     <string name="start">باشلاش</string>
     <string name="done">تامام</string>
     <string name="ok">جەزملەش</string>
+    <string name="tt9_yes">ھەئە</string>
+    <string name="tt9_no">كېيىن</string>
+    <string name="finish_tt9_prompt">ئالدىن پەرەز قىلىپ يېزىشنى (TT9) تەڭشەمسىز؟</string>
+
     <string name="loading">سەل كۈتۈڭ\u2026</string>
     <string name="setup_welcome_message"><xliff:g id="name" example="LineageOS">%1$s</xliff:g> غا خۇش كەلدىڭىز</string>
     <string name="setup_managed_profile_welcome_message">خىزمەت سەپلىمە ھۆججىتىڭىزنى تەڭشەڭ</string>

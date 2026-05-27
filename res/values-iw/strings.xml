@@ -11,6 +11,10 @@
     <string name="start">התחל</string>
     <string name="done">בוצע</string>
     <string name="ok">אישור</string>
+    <string name="tt9_yes">כן</string>
+    <string name="tt9_no">אחר כך</string>
+    <string name="finish_tt9_prompt">להגדיר הקלדה חזויה (TT9)?</string>
+
     <string name="loading">רק רגע\u2026</string>
     <string name="setup_welcome_message">ברוכים הבאים אל <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">הגדרת פרופיל העבודה שלך</string>

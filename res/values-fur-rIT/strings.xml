@@ -11,6 +11,10 @@
     <string name="start">Scomence</string>
     <string name="done">Fat</string>
     <string name="ok">Va ben</string>
+    <string name="tt9_yes">Sì</string>
+    <string name="tt9_no">Plui indenant</string>
+    <string name="finish_tt9_prompt">Configurâ la scriture preditive (TT9)?</string>
+
     <string name="loading">Dome un secont\u2026</string>
     <string name="setup_welcome_message">Benvignûts su <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Configure il to profîl di lavôr</string>

@@ -5,5 +5,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tt9_yes">Da</string>
+    <string name="tt9_no">Ne sada</string>
+    <string name="finish_tt9_prompt">Podesiti prediktivno kucanje (TT9)?</string>
     <string name="services_help_improve_cm">Pomozite poboljšati <xliff:g id="name" example="LineageOS">%s</xliff:g></string>
 </resources>

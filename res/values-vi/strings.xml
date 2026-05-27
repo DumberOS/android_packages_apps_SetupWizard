@@ -11,6 +11,10 @@
     <string name="start">Bắt đầu</string>
     <string name="done">Xong</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">Có</string>
+    <string name="tt9_no">Để sau</string>
+    <string name="finish_tt9_prompt">Thiết lập nhập liệu dự đoán (TT9)?</string>
+
     <string name="loading">Vui lòng đợi một giây\u2026</string>
     <string name="setup_welcome_message">Chào mừng bạn đến <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Thiết lập hồ sơ công việc của bạn</string>

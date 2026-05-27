@@ -11,6 +11,10 @@
     <string name="start">開始</string>
     <string name="done">完了</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">はい</string>
+    <string name="tt9_no">後で</string>
+    <string name="finish_tt9_prompt">予測入力（TT9）を設定しますか？</string>
+
     <string name="loading">しばらくお待ちください...</string>
     <string name="setup_welcome_message"><xliff:g id="name" example="LineageOS">%1$s</xliff:g> へようこそ</string>
     <string name="setup_managed_profile_welcome_message">仕事用プロファイルを設定</string>

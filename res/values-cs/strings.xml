@@ -11,6 +11,10 @@
     <string name="start">Spustit</string>
     <string name="done">Hotovo</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">Ano</string>
+    <string name="tt9_no">Později</string>
+    <string name="finish_tt9_prompt">Nastavit prediktivní psaní (TT9)?</string>
+
     <string name="loading">Jen chvilku\u2026</string>
     <string name="setup_welcome_message">Vítejte v\u00a0<xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Nastavte svůj pracovní profil</string>

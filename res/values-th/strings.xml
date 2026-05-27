@@ -11,6 +11,10 @@
     <string name="start">เริ่มต้น</string>
     <string name="done">เสร็จสิ้น</string>
     <string name="ok">ตกลง</string>
+    <string name="tt9_yes">ใช่</string>
+    <string name="tt9_no">ข้ามไปก่อน</string>
+    <string name="finish_tt9_prompt">กำหนดค่าการพิมพ์แบบคาดเดา (TT9) หรือไม่</string>
+
     <string name="loading">รอสักครู่\u2026</string>
     <string name="emergency_call">โทรฉุกเฉิน</string>
     <string name="accessibility_settings">การตั้งค่าการเข้าถึง</string>

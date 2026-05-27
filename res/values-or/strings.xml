@@ -10,6 +10,10 @@
     <string name="skip">ସ୍କିପ୍</string>
     <string name="start">ଆରମ୍ଭ</string>
     <string name="ok">ଓକେ</string>
+    <string name="tt9_yes">ହଁ</string>
+    <string name="tt9_no">ଏବେ ନୁହେଁଁ</string>
+    <string name="finish_tt9_prompt">ପୂର୍ବାନୁମାନ ଟାଇପିଂ (TT9) କନଫିଗର୍ କରିବେ କି?</string>
+
     <string name="loading">ଏକ ‍କ୍ଷଣ ମାତ୍ର\u2026</string>
     <string name="emergency_call">ଜରୁରୀକାଳୀନ କଲ୍</string>
     <string name="sim_locale_changed">%1$s SIM ସନ୍ଧାନ କରାଯାଇଛି</string>

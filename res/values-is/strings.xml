@@ -11,6 +11,10 @@
     <string name="start">Byrja</string>
     <string name="done">Lokið</string>
     <string name="ok">Í lagi</string>
+    <string name="tt9_yes">Já</string>
+    <string name="tt9_no">Síðar</string>
+    <string name="finish_tt9_prompt">Viltu stilla forspárinnslátt (TT9)?</string>
+
     <string name="loading">Bíddu aðeins\u2026</string>
     <string name="setup_welcome_message">Velkomin í <xliff:g id="name" example="LineageOS">%1s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Settu upp vinnusniðið þitt</string>

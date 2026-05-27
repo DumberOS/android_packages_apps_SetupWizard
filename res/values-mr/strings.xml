@@ -10,6 +10,10 @@
     <string name="skip">वगळा</string>
     <string name="start">प्रारंभ करा</string>
     <string name="ok">ठीक आहे</string>
+    <string name="tt9_yes">होय</string>
+    <string name="tt9_no">आता नको</string>
+    <string name="finish_tt9_prompt">प्रेडिक्टिव्ह टायपिंग (TT9) कॉन्फिगर करायचे?</string>
+
     <string name="loading">एक सेकंदांमध्ये\u2026</string>
     <string name="emergency_call">आणीबाणीचा कॉल</string>
     <string name="sim_locale_changed">%1$s सिम आढळले</string>

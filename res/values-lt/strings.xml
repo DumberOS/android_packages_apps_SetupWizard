@@ -10,6 +10,10 @@
     <string name="skip">Praleisti</string>
     <string name="start">Pradėti</string>
     <string name="ok">Gerai</string>
+    <string name="tt9_yes">Taip</string>
+    <string name="tt9_no">Ne dabar</string>
+    <string name="finish_tt9_prompt">Konfigūruoti nuspėjamąjį rašymą (TT9)?</string>
+
     <string name="loading">Sekundėlę\u2026</string>
     <string name="emergency_call">Pagalbos skambutis</string>
     <string name="setup_sim_missing">SIM kortelės nėra</string>

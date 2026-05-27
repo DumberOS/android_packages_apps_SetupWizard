@@ -11,6 +11,10 @@
     <string name="start">Başla</string>
     <string name="done">Bitti</string>
     <string name="ok">Tamam</string>
+    <string name="tt9_yes">Evet</string>
+    <string name="tt9_no">Daha sonra</string>
+    <string name="finish_tt9_prompt">Tahmine dayalı yazma (TT9) yapılandırılsın mı?</string>
+
     <string name="loading">Bir saniye\u2026</string>
     <string name="setup_welcome_message"><xliff:g id="name" example="LineageOS">%1$s</xliff:g> hoş geldiniz</string>
     <string name="setup_managed_profile_welcome_message">İş profilini ayarla</string>

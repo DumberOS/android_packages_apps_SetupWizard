@@ -11,6 +11,10 @@
     <string name="start">Fillo</string>
     <string name="done">U krye</string>
     <string name="ok">OK</string>
+    <string name="tt9_yes">Po</string>
+    <string name="tt9_no">Më vonë</string>
+    <string name="finish_tt9_prompt">Të konfigurohet shkrimi parashikues (TT9)?</string>
+
     <string name="loading">Një sekondë\u2026</string>
     <string name="setup_welcome_message">Mire se erdhët në <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Konfiguro profilin tënd të punës</string>

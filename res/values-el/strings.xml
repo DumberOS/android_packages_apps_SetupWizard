@@ -11,6 +11,10 @@
     <string name="start">Έναρξη</string>
     <string name="done">Ολοκληρώθηκε</string>
     <string name="ok">ΟΚ</string>
+    <string name="tt9_yes">Ναι</string>
+    <string name="tt9_no">Αργότερα</string>
+    <string name="finish_tt9_prompt">Να διαμορφωθεί η προγνωστική πληκτρολόγηση (TT9);</string>
+
     <string name="loading">Μισό λεπτό\u2026</string>
     <string name="setup_welcome_message">Καλώς ήλθατε στο <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="setup_managed_profile_welcome_message">Ρύθμιση του προφίλ εργασίας σας</string>
